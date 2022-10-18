@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import React from "react";
-import { ContactData, Status } from "../types/globalTypes";
+import { ContactData, Status } from "../../types/globalTypes";
 
 export const Contact = (): JSX.Element => {
   const formInitialDetails = {

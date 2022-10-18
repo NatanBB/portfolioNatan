@@ -1,6 +1,7 @@
 import { Col } from "react-bootstrap";
 import React from 'react';
-import { ProjectCardData } from "../types/globalTypes";
+import { ProjectCardData } from "../../../types/globalTypes";
+import '../styles.css'
 
 export const ProjectCard = ({
   title,

@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import React from "react";
+import './styles.css'
 
 export const Banner = (): JSX.Element => {
   const [loopNum, setLoopNum] = useState(0);
@@ -53,7 +54,7 @@ export const Banner = (): JSX.Element => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Natan`} <span className="txt-rotate" data-rotate='[ "Full-Stack Developer", "Web Designer", "Gamer!" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Studying a Bachelor's degree in Information Systems, improving my knowledge and learning about programming algorithms, object-oriented programming, database, computer network, data structure and software engineering in addition to planning, acquiring and managing services and technology resources of Information and Computing applied to the development and evolution of systems and infrastructures for automating organizational processes, and acting as a Junior Full-Stack Developer, where I have the pleasure of working with several technologies, including JavaScript, C#, Typescript, Git and Node . Using framework like React.js and Next.js, performing implementations with AWS and S3 database. Using code versioning tools like Fork and agile scrum methodology.</p>
+                  <p>Studying a Bachelor's degree in Information Systems, improving my knowledge and learning about programming algorithms, object-oriented programming, database, computer network, data structure and software engineering, in the professional field, I work as a Junior Full-Stack Developer, where I have the pleasure of working with several technologies, including JavaScript, C#, Typescript, Git and Node. Using framework like React.js and Next.js, performing implementations with AWS and S3 database. Using code versioning tools like Fork and agile scrum methodology.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                 </div>}
             </TrackVisibility>
