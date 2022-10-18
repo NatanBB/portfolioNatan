@@ -469,7 +469,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 4rem 0 4rem 0;
 }
 .contact img {
   width: 92%;
@@ -540,7 +540,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 2rem 0 2rem 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;

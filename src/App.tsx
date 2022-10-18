@@ -1,13 +1,14 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner.tsx";
+import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact.tsx";
+import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import React from 'react';
 
-function App() {
+export default function App(){
   return (
     <div className="App">
       <NavBar />
@@ -20,4 +21,3 @@ function App() {
   );
 }
 
-export default App;

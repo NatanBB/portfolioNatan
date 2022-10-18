@@ -1,6 +1,12 @@
 import { Col } from "react-bootstrap";
+import React from 'react';
+import { ProjectCardData } from "../types/globalTypes";
 
-export const ProjectCard = ({ title, description, imgUrl }) => {
+export const ProjectCard = ({
+  title,
+  description,
+  imgUrl
+}: ProjectCardData): JSX.Element => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">

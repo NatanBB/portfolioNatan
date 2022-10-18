@@ -6,7 +6,7 @@ import TrackVisibility from 'react-on-screen';
 import React from "react";
 import { ContactData, Status } from "../types/globalTypes";
 
-export const Contact = () => {
+export const Contact = (): JSX.Element => {
   const formInitialDetails = {
     firstName: '',
     lastName: '',
@@ -15,21 +15,21 @@ export const Contact = () => {
     message: ''
   }
   const [formDetails, setFormDetails] = useState<ContactData>(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
+  const [buttonText, setButtonText] = useState<string>('Send');
   const [status, setStatus] = useState<Status>({
     message: '',
     status: false,
     succes: false
   });
 
-  const onFormUpdate = (category, value) => {
+  const onFormUpdate = (category: string, value: any) => {
     setFormDetails({
       ...formDetails,
       [category]: value
     })
   }
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     setButtonText("Sending...");
     let response = await fetch("http://localhost:5000/contact", {

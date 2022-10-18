@@ -11,3 +11,9 @@ export type Status = {
   status?: boolean;
   succes?: boolean;
 }
+
+export type ProjectCardData = {
+  title: string;
+  description: string;
+  imgUrl?: string | any;
+}
