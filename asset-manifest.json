@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolioNatan/static/css/main.dbacbbf8.css",
+    "main.js": "/portfolioNatan/static/js/main.d688c93e.js",
+    "static/media/color-sharp.png": "/portfolioNatan/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/portfolioNatan/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/coffe.png": "/portfolioNatan/static/media/coffe.26835b0ccaf0e16aaddc.png",
+    "static/media/libproject.png": "/portfolioNatan/static/media/libproject.597c566f7cdfd556f780.png",
+    "static/media/banner-bg.png": "/portfolioNatan/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/portfolioNatan/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/ecoleta.png": "/portfolioNatan/static/media/ecoleta.8cd1f9f93bc2836de38a.png",
+    "static/media/pricing.png": "/portfolioNatan/static/media/pricing.35016e5ea1a062535b13.png",
+    "static/media/plant.png": "/portfolioNatan/static/media/plant.637adffab8c258203cae.png",
+    "static/media/podcastr.png": "/portfolioNatan/static/media/podcastr.2c634f3ee9a393d3bce2.png",
+    "static/media/terrainp5.png": "/portfolioNatan/static/media/terrainp5.841ee4b210618be7c582.png",
+    "static/media/CentraNo2-Bold.ttf": "/portfolioNatan/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/portfolioNatan/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/portfolioNatan/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/bethehero.png": "/portfolioNatan/static/media/bethehero.0060d0f5deffc88ad2f9.png",
+    "static/media/proffy.png": "/portfolioNatan/static/media/proffy.4a06a6c7035390335210.png",
+    "static/media/footer-bg.png": "/portfolioNatan/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/contact-img.svg": "/portfolioNatan/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/revicons.eot": "/portfolioNatan/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolioNatan/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portfolioNatan/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/portfolioNatan/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/portfolioNatan/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/meter3.svg": "/portfolioNatan/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/nav-icon3.svg": "/portfolioNatan/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/iconmonstr-github-1.svg": "/portfolioNatan/static/media/iconmonstr-github-1.04be58c17b3d5e9744424d414240dd85.svg",
+    "index.html": "/portfolioNatan/index.html",
+    "static/media/nav-icon1.svg": "/portfolioNatan/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/portfolioNatan/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.dbacbbf8.css.map": "/portfolioNatan/static/css/main.dbacbbf8.css.map",
+    "main.d688c93e.js.map": "/portfolioNatan/static/js/main.d688c93e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbacbbf8.css",
+    "static/js/main.d688c93e.js"
+  ]
+}
