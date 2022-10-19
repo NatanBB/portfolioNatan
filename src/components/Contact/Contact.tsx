@@ -5,6 +5,9 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import React from "react";
 import { ContactData, Status } from "../../types/globalTypes";
+import { AiOutlineMail } from 'react-icons/ai'
+import { BsFillTelephoneFill } from 'react-icons/bs'
+import { FaMapMarkerAlt } from 'react-icons/fa'
 
 export const Contact = (): JSX.Element => {
   const formInitialDetails = {
@@ -64,7 +67,11 @@ export const Contact = (): JSX.Element => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h2>Get In Touch</h2>
+                  <h2>Contact</h2>
+                  <p style={{alignItems: 'center'}}><AiOutlineMail size={24} style={{marginRight: '0.5rem'}}/>natanborba77@gmail.com</p>
+                  <p style={{alignItems: 'center'}}><BsFillTelephoneFill size={20} style={{marginRight: '0.5rem'}} />+55 47 99259-4036</p>
+                  <p style={{alignItems: 'center'}}><FaMapMarkerAlt size={24} style={{marginRight: '0.5rem'}}/>Joinville, SC, Brazil</p>
+                  <h2 style={{marginTop: '1.8rem'}}>Get In Touch</h2>
                   <form onSubmit={handleSubmit}>
                     <Row>
                       <Col size={12} sm={6} className="px-1">
