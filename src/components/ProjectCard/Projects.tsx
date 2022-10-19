@@ -22,31 +22,37 @@ export const Projects = () => {
       title: "Be The Hero",
       description: "Development, React, React Native",
       imgUrl: projImg1,
+      link: "https://github.com/NatanBB/Be-The-Hero"
     },
     {
       title: "Ecoleta",
       description: "Development, React, React Native",
       imgUrl: projImg2,
+      link: "https://github.com/NatanBB/Ecoleta"
     },
     {
       title: "Proffy",
       description: "Development, React",
       imgUrl: projImg4,
+      link: "https://github.com/NatanBB/Proffy"
     },
     {
       title: "Podcastr",
       description: "Development, React",
       imgUrl: projImg3,
+      link: "https://github.com/NatanBB/Podcastr"
     },
     {
       title: "Terrain Generator",
       description: "Development, JavaScript, P5",
       imgUrl: projImg5,
+      link: "https://github.com/NatanBB/TerrainP5"
     },
     {
       title: "Lib Project",
       description: "Development, React",
       imgUrl: projImg6,
+      link: "https://github.com/NatanBB/libproject"
     },
   ];
 
@@ -55,21 +61,24 @@ export const Projects = () => {
       title: "Plant Manager",
       description: "Development, React Native",
       imgUrl: projImg7,
+      link: "https://github.com/NatanBB/PlantManager"
     },
     {
       title: "Rocket Coffe",
       description: "Development, JavaScript",
       imgUrl: projImg8,
+      link: "https://github.com/NatanBB/RocketCoffee"
     },
     {
       title: "Princing Table",
       description: "Development, JavaScript",
       imgUrl: projImg9,
+      link: "https://github.com/NatanBB/PricingTable"
     },
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>

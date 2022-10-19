@@ -55,7 +55,7 @@ export const Banner = (): JSX.Element => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Natan`} <span className="txt-rotate" data-rotate='[ "Full-Stack Developer", "Web Designer", "Gamer!" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Studying a Bachelor's degree in Information Systems, improving my knowledge and learning about programming algorithms, object-oriented programming, database, computer network, data structure and software engineering, in the professional field, I work as a Junior Full-Stack Developer, where I have the pleasure of working with several technologies, including JavaScript, C#, Typescript, Git and Node. Using framework like React.js and Next.js, performing implementations with AWS and S3 database. Using code versioning tools like Fork and agile scrum methodology.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window.location.href = '#connect'}>Let's Connect <ArrowRightCircle size={25} /></button>
                 </div>}
             </TrackVisibility>
           </Col>
