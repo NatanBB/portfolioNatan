@@ -32,7 +32,7 @@ export const Contact = (): JSX.Element => {
   const handleSubmit = async (e: any) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("http://localhost:3333/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -81,14 +81,16 @@ export const Contact = (): JSX.Element => {
                       </Col>
                       <Col size={12} className="px-1">
                         <textarea rows={6} value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                        <button type="submit"><span>{buttonText}</span></button>
+                        <Row>
+                          {
+                            status.message &&
+                            <Col>
+                              <p className={status.succes === false ? "danger" : "success"}>{status.message}</p>
+                            </Col>
+                          }
+                        </Row>
+                        <button style={{marginTop: '0'}} type="submit"><span>{buttonText}</span></button>
                       </Col>
-                      {
-                        status.message &&
-                        <Col>
-                          <p className={status.succes === false ? "danger" : "success"}>{status.message}</p>
-                        </Col>
-                      }
                     </Row>
                   </form>
                 </div>}
