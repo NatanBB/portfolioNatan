@@ -1,81 +1,13 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectSubModule/ProjectCard";
-import projImg1 from "../../assets/img/bethehero.png";
-import projImg2 from "../../assets/img/ecoleta.png";
-import projImg3 from "../../assets/img/podcastr.png";
-import projImg4 from "../../assets/img/proffy.png";
-import projImg5 from "../../assets/img/terrainp5.png";
-import projImg6 from "../../assets/img/libproject.png";
-import projImg7 from "../../assets/img/plant.png";
-import projImg8 from "../../assets/img/coffe.png";
-import projImg9 from "../../assets/img/pricing.png";
 import colorSharp2 from "../../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import React from 'react';
 import './styles.css'
+import { projectsMainTable, projectsSecondTable } from "../../utils/context";
 
 export const Projects = () => {
-
-  const projectsTab1 = [
-    {
-      title: "Be The Hero",
-      description: "Development, React, React Native",
-      imgUrl: projImg1,
-      link: "https://github.com/NatanBB/Be-The-Hero"
-    },
-    {
-      title: "Ecoleta",
-      description: "Development, React, React Native",
-      imgUrl: projImg2,
-      link: "https://github.com/NatanBB/Ecoleta"
-    },
-    {
-      title: "Proffy",
-      description: "Development, React",
-      imgUrl: projImg4,
-      link: "https://github.com/NatanBB/Proffy"
-    },
-    {
-      title: "Podcastr",
-      description: "Development, React",
-      imgUrl: projImg3,
-      link: "https://github.com/NatanBB/Podcastr"
-    },
-    {
-      title: "Terrain Generator",
-      description: "Development, JavaScript, P5",
-      imgUrl: projImg5,
-      link: "https://github.com/NatanBB/TerrainP5"
-    },
-    {
-      title: "Lib Project",
-      description: "Development, React",
-      imgUrl: projImg6,
-      link: "https://github.com/NatanBB/libproject"
-    },
-  ];
-
-  const projectsTab2 = [
-    {
-      title: "Plant Manager",
-      description: "Development, React Native",
-      imgUrl: projImg7,
-      link: "https://github.com/NatanBB/PlantManager"
-    },
-    {
-      title: "Rocket Coffe",
-      description: "Development, JavaScript",
-      imgUrl: projImg8,
-      link: "https://github.com/NatanBB/RocketCoffee"
-    },
-    {
-      title: "Princing Table",
-      description: "Development, JavaScript",
-      imgUrl: projImg9,
-      link: "https://github.com/NatanBB/PricingTable"
-    },
-  ];
 
   return (
     <section className="project" id="projects">
@@ -103,7 +35,7 @@ export const Projects = () => {
                       <Tab.Pane eventKey="first">
                         <Row>
                           {
-                            projectsTab1.map((project, index) => {
+                            projectsMainTable.map((project, index) => {
                               return (
                                 <ProjectCard
                                   key={index}
@@ -117,7 +49,7 @@ export const Projects = () => {
                       <Tab.Pane eventKey="second">
                         <Row>
                           {
-                            projectsTab2.map((project, index) => {
+                            projectsSecondTable.map((project, index) => {
                               return (
                                 <ProjectCard
                                   key={index}

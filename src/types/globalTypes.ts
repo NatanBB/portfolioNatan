@@ -18,3 +18,16 @@ export type ProjectCardData = {
   imgUrl?: string | any;
   link?: string;
 }
+
+export type SkillsContextType = {
+  id: number;
+  title: string;
+  content: string;
+}
+
+export type ProjectTableType = {
+  title: string;
+  description: string;
+  imgUrl: any;
+  link: string;
+}

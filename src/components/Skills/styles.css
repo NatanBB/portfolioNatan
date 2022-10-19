@@ -44,14 +44,28 @@
 }
 
 .cardSkill {
-  width: 95%;
+  width: 93%;
   padding: 1rem;
   background: #1b1b1b;
   border-radius: 1rem;
+  min-width: 93%;
+  min-height: 93%;
 }
 
 .cardSkill:hover{
   transform: scale(1.1);
   transition: 200ms linear; 
   float: 1;
+}
+
+.cardSkill h1 {
+  margin-top: 12px;
+}
+
+.contentCard {
+  color: #B8B8B8;
+  font-size: 12px !important;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 28px 0 !important;
 }

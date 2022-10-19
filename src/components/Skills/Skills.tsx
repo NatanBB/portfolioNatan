@@ -6,6 +6,8 @@ import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../../assets/img/color-sharp.png"
 import React from 'react';
 import './styles.css';
+import { skillsContext } from "../../utils/context";
+import { SkillsContextType } from "../../types/globalTypes";
 
 export const Skills = (): JSX.Element => {
   const responsive = {
@@ -36,30 +38,16 @@ export const Skills = (): JSX.Element => {
               <h2>Skills</h2>
               <p>Always looking to improve my knowledge, my main skills!</p>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                <div className="cardSkill">
-                  <h1>React</h1>
-                </div>
-                <div className="cardSkill">
-                  <h1>React Native</h1>
-                </div>
-                <div className="cardSkill">
-                  <h1>JavaScript</h1>
-                </div>
-                <div className="cardSkill">
-                  <h1>C#</h1>
-                </div>
-                <div className="cardSkill">
-                  <h1>Java</h1>
-                </div>
-                <div className="cardSkill">
-                  <h1>TypeScript</h1>
-                </div>
-                <div className="cardSkill">
-                  <h1>Python</h1>
-                </div>
-                <div className="cardSkill">
-                  <h1>Postgress</h1>
-                </div>
+                {
+                  skillsContext.map((skills: SkillsContextType) => (
+                    <div key={skills.id} className="cardSkill" >
+                      <h1>{skills.title}</h1>
+                      <p className="contentCard">
+                        {skills.content}
+                      </p>
+                    </div>
+                  ))
+                }
               </Carousel>
               <div style={{ padding: '1em' }}></div>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
