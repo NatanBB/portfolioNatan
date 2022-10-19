@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![alt text](https://i.imgur.com/TO4wHEG.png)
 
-# Developed Using: </br>
+# :rocket: Developed Using: </br>
 
 * React
 * React-bootstrap
@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Express
 * Nodemailer
 
-# Run Project
+# :globe_with_meridians: Run Project
 
 ### `npm install` and `npm start`
 
