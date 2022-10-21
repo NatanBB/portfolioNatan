@@ -56,15 +56,11 @@ export const Skills = (): JSX.Element => {
                   <h5>Web Development</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Skills" />
+                  <img src={meter2} alt="Skills" />
                   <h5>Back End Development</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Skills" />
-                  <h5>DevOps</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Skills" />
                   <h5>Database</h5>
                 </div>
               </Carousel>

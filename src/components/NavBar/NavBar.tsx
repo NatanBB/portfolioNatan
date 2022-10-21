@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../../assets/img/iconmonstr-github-1.svg';
 import navIcon1 from '../../assets/img/nav-icon1.svg';
-import navIcon2 from '../../assets/img/nav-icon2.svg';
+import navIcon2 from '../../assets/img/whatsapp.svg';
 import navIcon3 from '../../assets/img/nav-icon3.svg';
+import navIcon4 from '../../assets/img/github.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -38,8 +39,8 @@ export const NavBar = (): JSX.Element => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="https://github.com/NatanBB" target={"_blank"}>
-            <img src={logo} alt="Logo" />
+          <Navbar.Brand>
+            <h1 className="textLogo">Portfolio.</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -53,8 +54,9 @@ export const NavBar = (): JSX.Element => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/natan-borba-boos/" target="_blank"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/natan_boos/" target="_blank"><img src={navIcon3} alt="" /></a>
+                <a href="https://api.whatsapp.com/send?phone=5547992594036&text=Ol%C3%A1!%20Me%20interessei%20no%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20marcarmos%20uma%20conversa." target="_blank"><img src={navIcon2} alt="" /></a>
+                <a href="https://github.com/NatanBB" target="_blank"><img src={navIcon4} alt="Icon" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let's Connect</span></button>
