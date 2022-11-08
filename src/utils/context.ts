@@ -8,6 +8,7 @@ import projImg6 from "../assets/img/libproject.png";
 import projImg7 from "../assets/img/plant.png";
 import projImg8 from "../assets/img/coffe.png";
 import projImg9 from "../assets/img/pricing.png";
+import projImg10 from "../assets/img/nlwcopa.png";
 
 export const skillsContext: SkillsContextType[] = [
   {
@@ -72,10 +73,10 @@ export const projectsMainTable: ProjectTableType[] = [
     link: "https://github.com/NatanBB/Proffy"
   },
   {
-    title: "Podcastr",
+    title: "Lib Project",
     description: "Development, React",
-    imgUrl: projImg3,
-    link: "https://github.com/NatanBB/Podcastr"
+    imgUrl: projImg6,
+    link: "https://github.com/NatanBB/libproject"
   },
   {
     title: "Terrain Generator",
@@ -84,10 +85,10 @@ export const projectsMainTable: ProjectTableType[] = [
     link: "https://github.com/NatanBB/TerrainP5"
   },
   {
-    title: "Lib Project",
-    description: "Development, React",
-    imgUrl: projImg6,
-    link: "https://github.com/NatanBB/libproject"
+    title: "Nlw Copa",
+    description: "Development, React, ReactNative, OAuth, Expo",
+    imgUrl: projImg10,
+    link: "https://github.com/NatanBB/NLW-COPA"
   },
 ];
 
@@ -110,4 +111,10 @@ export const projectsSecondTable: ProjectTableType[] = [
     imgUrl: projImg9,
     link: "https://github.com/NatanBB/PricingTable"
   },
+  {
+    title: "Podcastr",
+    description: "Development, React",
+    imgUrl: projImg3,
+    link: "https://github.com/NatanBB/Podcastr"
+  }
 ];
