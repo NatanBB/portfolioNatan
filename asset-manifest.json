@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioNatan/static/css/main.dabd951b.css",
-    "main.js": "/portfolioNatan/static/js/main.b915744b.js",
+    "main.js": "/portfolioNatan/static/js/main.bd55aaab.js",
     "static/media/color-sharp.png": "/portfolioNatan/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/portfolioNatan/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/coffe.png": "/portfolioNatan/static/media/coffe.26835b0ccaf0e16aaddc.png",
@@ -9,6 +9,7 @@
     "static/media/banner-bg.png": "/portfolioNatan/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/portfolioNatan/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/ecoleta.png": "/portfolioNatan/static/media/ecoleta.8cd1f9f93bc2836de38a.png",
+    "static/media/nlwcopa.png": "/portfolioNatan/static/media/nlwcopa.2cbf589a518d864f677e.png",
     "static/media/pricing.png": "/portfolioNatan/static/media/pricing.35016e5ea1a062535b13.png",
     "static/media/plant.png": "/portfolioNatan/static/media/plant.637adffab8c258203cae.png",
     "static/media/podcastr.png": "/portfolioNatan/static/media/podcastr.2c634f3ee9a393d3bce2.png",
@@ -31,10 +32,10 @@
     "index.html": "/portfolioNatan/index.html",
     "static/media/nav-icon1.svg": "/portfolioNatan/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.dabd951b.css.map": "/portfolioNatan/static/css/main.dabd951b.css.map",
-    "main.b915744b.js.map": "/portfolioNatan/static/js/main.b915744b.js.map"
+    "main.bd55aaab.js.map": "/portfolioNatan/static/js/main.bd55aaab.js.map"
   },
   "entrypoints": [
     "static/css/main.dabd951b.css",
-    "static/js/main.b915744b.js"
+    "static/js/main.bd55aaab.js"
   ]
 }
