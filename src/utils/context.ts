@@ -9,6 +9,7 @@ import projImg7 from "../assets/img/plant.png";
 import projImg8 from "../assets/img/coffe.png";
 import projImg9 from "../assets/img/pricing.png";
 import projImg10 from "../assets/img/nlwcopa.png";
+import projImg11 from "../assets/img/wevytasklogin.png";
 
 export const skillsContext: SkillsContextType[] = [
   {
@@ -18,42 +19,43 @@ export const skillsContext: SkillsContextType[] = [
   },
   {
     id: 2,
-    title: "React Native",
-    content: "Development of mobile applications in online events, such as Next Level Week and OmniStack Week offered by @Rocketseat"
-  },
-  {
-    id: 3,
     title: "JavaScript",
     content: "Development of applications and logic, using in several projects, creating functions and getting the most out of the language."
   },
   {
-    id: 4,
+    id: 3,
     title: "C#",
     content: "Development of complete solutions, using .NET and Entity Framework, with database integrations and layered divisions."
   },
   {
-    id: 5,
-    title: "Java",
-    content: "Development of personal projects, exercises from courses made by @Udemy and OOP projects at college."
+    id: 4,
+    title: "NodeJs",
+    content: "development of robotization for process automation, use in personal and freelance projects."
   },
   {
-    id: 6,
+    id: 5,
     title: "TypeScript",
     content: "Using in several projects always aiming to keep them well structured and typed. Project standardization and more."
   },
   {
-    id: 7,
-    title: "Python",
-    content: "Data analysis, systems monitoring and flow control projects. College homework solving and more."
-  },
-  {
-    id: 8,
+    id: 6,
     title: "PostgresSQL",
     content: "Use of database for information storage, data warehouse, triggers and connection with applications"
+  },
+  {
+    id: 7,
+    title: "AWS Ecosystem",
+    content: "Continuous use of S3, RDS and lambdas functions. Data management in DynamoDB"
   }
 ]
 
 export const projectsMainTable: ProjectTableType[] = [
+  {
+    title: "WevyChallange",
+    description: "Development, React, Node",
+    imgUrl: projImg11,
+    link: "https://github.com/NatanBB/desafiowevy"
+  },
   {
     title: "Be The Hero",
     description: "Development, React, React Native",
@@ -79,12 +81,6 @@ export const projectsMainTable: ProjectTableType[] = [
     link: "https://github.com/NatanBB/libproject"
   },
   {
-    title: "Terrain Generator",
-    description: "Development, JavaScript, P5",
-    imgUrl: projImg5,
-    link: "https://github.com/NatanBB/TerrainP5"
-  },
-  {
     title: "Nlw Copa",
     description: "Development, React, ReactNative, OAuth, Expo",
     imgUrl: projImg10,
@@ -93,6 +89,12 @@ export const projectsMainTable: ProjectTableType[] = [
 ];
 
 export const projectsSecondTable: ProjectTableType[] = [
+  {
+    title: "Terrain Generator",
+    description: "Development, JavaScript, P5",
+    imgUrl: projImg5,
+    link: "https://github.com/NatanBB/TerrainP5"
+  },
   {
     title: "Plant Manager",
     description: "Development, React Native",

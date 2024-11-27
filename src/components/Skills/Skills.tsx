@@ -49,21 +49,6 @@ export const Skills = (): JSX.Element => {
                   ))
                 }
               </Carousel>
-              <div style={{ padding: '1em' }}></div>
-              <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                <div className="item">
-                  <img src={meter1} alt="Skills" />
-                  <h5>Web Development</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Skills" />
-                  <h5>Back End Development</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Skills" />
-                  <h5>Database</h5>
-                </div>
-              </Carousel>
             </div>
           </div>
         </div>

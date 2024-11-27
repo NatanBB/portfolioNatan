@@ -13,9 +13,8 @@ import React from 'react';
 import './styles.css'
 
 export const NavBar = (): JSX.Element => {
-
-  const [activeLink, setActiveLink] = useState('home');
-  const [scrolled, setScrolled] = useState(false);
+  const [activeLink, setActiveLink] = useState<string>('home');
+  const [scrolled, setScrolled] = useState<boolean>(false);
 
   useEffect(() => {
     const onScroll = () => {

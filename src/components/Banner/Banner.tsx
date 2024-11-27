@@ -8,10 +8,10 @@ import React from "react";
 import './styles.css'
 
 export const Banner = (): JSX.Element => {
-  const [loopNum, setLoopNum] = useState(0);
+  const [loopNum, setLoopNum] = useState<number>(0);
   const [isDeleting, setIsDeleting] = useState<boolean>(false);
   const [text, setText] = useState<string>('');
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const [delta, setDelta] = useState<number>(300 - Math.random() * 100);
   const toRotate = ["Full-Stack Developer", "Web Designer", "Gamer!"];
   const period = 2000;
 
@@ -21,12 +21,14 @@ export const Banner = (): JSX.Element => {
     }, delta);
 
     return () => { clearInterval(ticker) };
-  }, [text])
+  }, [text]);
 
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
-    let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
+    let updatedText = isDeleting ?
+      fullText.substring(0, text.length - 1) :
+      fullText.substring(0, text.length + 1);
 
     setText(updatedText);
 
@@ -53,9 +55,26 @@ export const Banner = (): JSX.Element => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>{`Hi! I'm Natan`} <span className="txt-rotate" data-rotate='[ "Full-Stack Developer", "Web Designer", "Gamer!" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Studying a Bachelor's degree in Information Systems, improving my knowledge and learning about programming algorithms, object-oriented programming, database, computer network, data structure and software engineering, in the professional field, I work as a Junior Full-Stack Developer, where I have the pleasure of working with several technologies, including JavaScript, C#, Typescript, Git and Node. Using framework like React.js and Next.js, performing implementations with AWS and S3 database. Using code versioning tools like Fork and agile scrum methodology.</p>
-                  <button onClick={() => window.location.href = '#connect'}>Let's Connect <ArrowRightCircle size={25} /></button>
+                  <h1>
+                    {`Hi! I'm Natan`}
+                    <span className="txt-rotate" data-rotate='[ "Full-Stack Developer", "Web Designer", "Gamer!" ]'>
+                      <span className="wrap">
+                        {text}
+                      </span>
+                    </span>
+                  </h1>
+                  <p>Studying a Bachelor's degree in Information Systems, improving my knowledge and learning about programming algorithms, object-oriented programming, database, computer network, data structure and software engineering.</p>
+                  <p>Full Stack Software Developer with experience in end-to-end development of robust systems, especially in ERP for international logistics. Specialist in React, Next.js, TypeScript, C#, and integrations with external APIs. Focus on front-end and back-end performance, using practices such as ORM, Dependency Injection and Cache Implementation. Experience with unit testing (TDD), REST APIs, microservices and AWS-based solutions, including DynamoDB and Lambda. I also worked as a freelancer, delivering complete systems and automations for different niches.</p>
+                  <button
+                    onClick={
+                      () => window.location.href = '#connect'
+                    }
+                  >
+                    Let's Connect
+                    <ArrowRightCircle
+                      size={25}
+                    />
+                  </button>
                 </div>}
             </TrackVisibility>
           </Col>
@@ -63,7 +82,10 @@ export const Banner = (): JSX.Element => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img" />
+                  <img
+                    src={headerImg}
+                    alt="Header Img"
+                  />
                 </div>}
             </TrackVisibility>
           </Col>
