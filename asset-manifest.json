@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioNatan/static/css/main.dabd951b.css",
-    "main.js": "/portfolioNatan/static/js/main.bd55aaab.js",
+    "main.js": "/portfolioNatan/static/js/main.56c81cd7.js",
     "static/media/color-sharp.png": "/portfolioNatan/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/portfolioNatan/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/coffe.png": "/portfolioNatan/static/media/coffe.26835b0ccaf0e16aaddc.png",
@@ -21,21 +21,20 @@
     "static/media/proffy.png": "/portfolioNatan/static/media/proffy.4a06a6c7035390335210.png",
     "static/media/footer-bg.png": "/portfolioNatan/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/contact-img.svg": "/portfolioNatan/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/wevytasklogin.png": "/portfolioNatan/static/media/wevytasklogin.d0de847b3d0df36e59ea.png",
     "static/media/revicons.eot": "/portfolioNatan/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolioNatan/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolioNatan/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/meter2.svg": "/portfolioNatan/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
-    "static/media/meter1.svg": "/portfolioNatan/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
-    "static/media/whatsapp.svg": "/portfolioNatan/static/media/whatsapp.ef1ec40c23d84c34fdaa746ade6475b7.svg",
-    "static/media/github.svg": "/portfolioNatan/static/media/github.1f3b7d68bd33dc946f74aef18e846d6d.svg",
+    "static/media/whatsapp.svg": "/portfolioNatan/static/media/whatsapp.5e876b04cffd7a5c304210ed9982efbf.svg",
+    "static/media/github.svg": "/portfolioNatan/static/media/github.be01e3079ab2bce7f708d290791c1bb3.svg",
     "static/media/nav-icon3.svg": "/portfolioNatan/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/portfolioNatan/index.html",
     "static/media/nav-icon1.svg": "/portfolioNatan/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.dabd951b.css.map": "/portfolioNatan/static/css/main.dabd951b.css.map",
-    "main.bd55aaab.js.map": "/portfolioNatan/static/js/main.bd55aaab.js.map"
+    "main.56c81cd7.js.map": "/portfolioNatan/static/js/main.56c81cd7.js.map"
   },
   "entrypoints": [
     "static/css/main.dabd951b.css",
-    "static/js/main.bd55aaab.js"
+    "static/js/main.56c81cd7.js"
   ]
 }
